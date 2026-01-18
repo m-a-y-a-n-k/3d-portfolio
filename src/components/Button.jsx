@@ -4,6 +4,8 @@
  * with a small offset from the top for better visual placement.
  */
 
+import { asset } from "../utils/asset";
+
 const Button = ({ text, className, id }) => {
   return (
     <a
@@ -31,7 +33,7 @@ const Button = ({ text, className, id }) => {
         <div className="bg-circle" />
         <p className="text">{text}</p>
         <div className="arrow-wrapper">
-          <img src="/images/arrow-down.svg" alt="arrow" />
+          <img src={asset("images/arrow-down.svg")} alt="arrow" />
         </div>
       </div>
     </a>

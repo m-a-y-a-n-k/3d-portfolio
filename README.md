@@ -47,7 +47,16 @@ npm run dev
 npm run build
 npm run preview
 npm run lint
+npm run deploy
 ```
+
+## GitHub Pages
+
+- **Recommended (automatic)**: this repo includes a GitHub Actions workflow at `.github/workflows/deploy.yml`.
+  - In GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+  - Then push to `main` and it will deploy.
+- **Alternative (manual)**: run `npm run deploy` to publish the `dist/` folder to the `gh-pages` branch.
+  - In GitHub: **Settings → Pages → Deploy from a branch → gh-pages / (root)**.
 
 ## Customize content
 

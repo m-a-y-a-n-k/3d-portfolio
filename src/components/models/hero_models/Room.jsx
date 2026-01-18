@@ -8,11 +8,12 @@ import { useGLTF, useTexture } from "@react-three/drei";
 import { EffectComposer, SelectiveBloom } from "@react-three/postprocessing";
 import { BlendFunction } from "postprocessing";
 import * as THREE from "three";
+import { asset } from "../../../utils/asset";
 
 export function Room(props) {
-  const { nodes, materials } = useGLTF("/models/optimized-room.glb");
+  const { nodes, materials } = useGLTF(asset("models/optimized-room.glb"));
   const screensRef = useRef();
-  const matcapTexture = useTexture("/images/textures/mat1.png");
+  const matcapTexture = useTexture(asset("images/textures/mat1.png"));
 
   const curtainMaterial = new THREE.MeshPhongMaterial({
     color: "#d90429",
@@ -174,4 +175,4 @@ export function Room(props) {
   );
 }
 
-useGLTF.preload("/models/optimized-room.glb");
+useGLTF.preload(asset("models/optimized-room.glb"));

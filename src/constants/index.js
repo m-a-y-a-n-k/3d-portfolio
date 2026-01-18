@@ -1,3 +1,5 @@
+import { asset } from "../utils/asset";
+
 const navLinks = [
   {
     name: "Work",
@@ -18,14 +20,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: asset("images/ideas.svg") },
+  { text: "Concepts", imgPath: asset("images/concepts.svg") },
+  { text: "Designs", imgPath: asset("images/designs.svg") },
+  { text: "Code", imgPath: asset("images/code.svg") },
+  { text: "Ideas", imgPath: asset("images/ideas.svg") },
+  { text: "Concepts", imgPath: asset("images/concepts.svg") },
+  { text: "Designs", imgPath: asset("images/designs.svg") },
+  { text: "Code", imgPath: asset("images/code.svg") },
 ];
 
 const counterItems = [
@@ -36,17 +38,17 @@ const counterItems = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: asset("images/seo.png"),
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: asset("images/chat.png"),
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: asset("images/time.png"),
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -55,42 +57,42 @@ const abilities = [
 const techStackImgs = [
   {
     name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    imgPath: asset("images/logos/react.png"),
   },
   {
     name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    imgPath: asset("images/logos/python.svg"),
   },
   {
     name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    imgPath: asset("images/logos/node.png"),
   },
   {
     name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    imgPath: asset("images/logos/three.png"),
   },
   {
     name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    imgPath: asset("images/logos/git.svg"),
   },
 ];
 
 const techStackIcons = [
   {
     name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    modelPath: asset("models/react_logo-transformed.glb"),
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "JavaScript Developer",
-    modelPath: "/models/node-transformed.glb",
+    modelPath: asset("models/node-transformed.glb"),
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
+    modelPath: asset("models/three.js-transformed.glb"),
     scale: 0.05,
     rotation: [0, 0, 0],
   },
@@ -99,8 +101,8 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Mayank brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: asset("images/exp1.png"),
+    logoPath: asset("images/logo1.png"),
     title: "Senior Software Engineer (Frontend)",
     date: "Nov 2020 - Present",
     responsibilities: [
@@ -111,8 +113,8 @@ const expCards = [
   },
   {
     review: "Mayank’s contributions to Aspiring Mind's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    imgPath: asset("images/exp2.png"),
+    logoPath: asset("images/logo2.png"),
     title: "Software Engineer (Frontend)",
     date: "March 2020 - November 2020",
     responsibilities: [
@@ -123,8 +125,8 @@ const expCards = [
   },
   {
     review: "Mayank’s work on Infoedge's web suite of applications brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+    imgPath: asset("images/exp3.png"),
+    logoPath: asset("images/logo3.png"),
     title: "Software Engineer (Frontend)",
     date: "June 2018 - Feb 2020",
     responsibilities: [
@@ -138,15 +140,15 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    imgPath: asset("images/logo1.png"),
   },
   {
     name: "logo2",
-    imgPath: "/images/logo2.png",
+    imgPath: asset("images/logo2.png"),
   },
   {
     name: "logo3",
-    imgPath: "/images/logo3.png",
+    imgPath: asset("images/logo3.png"),
   },
 ];
 
@@ -156,61 +158,61 @@ const testimonials = [
     mentions: "@rahulkumar",
     review:
       "I can’t say enough good things about Mayank. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+    imgPath: asset("images/client1.png"),
   },
   {
     name: "Suraj Kumar",
     mentions: "@surajkumar",
     review:
       "Working with Mayank was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+    imgPath: asset("images/client3.png"),
   },
   {
     name: "Chandra Shekhar",
     mentions: "@chandra shekhar",
     review:
       "Collaborating with Mayank was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mayank's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mayank is the ideal partner.",
-    imgPath: "/images/client2.png",
+    imgPath: asset("images/client2.png"),
   },
   {
     name: "Rahul D",
     mentions: "@rahuld",
     review:
       "Mayank was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+    imgPath: asset("images/client5.png"),
   },
   {
     name: "Sakshi Mehra",
     mentions: "@sakshimehra",
     review:
       "Mayank’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+    imgPath: asset("images/client4.png"),
   },
   {
     name: "Akshit Sehgal",
     mentions: "@akshitsehgal",
     review:
       "Mayank was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+    imgPath: asset("images/client6.png"),
   },
 ];
 
 const socialImgs = [
   {
     name: "insta",
-    imgPath: "/images/insta.png",
+    imgPath: asset("images/insta.png"),
   },
   {
     name: "fb",
-    imgPath: "/images/fb.png",
+    imgPath: asset("images/fb.png"),
   },
   {
     name: "x",
-    imgPath: "/images/x.png",
+    imgPath: asset("images/x.png"),
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: asset("images/linkedin.png"),
   },
 ];
 

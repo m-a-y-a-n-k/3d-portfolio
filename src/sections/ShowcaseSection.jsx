@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { asset } from "../utils/asset";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,7 +50,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src={asset("images/project1.png")} alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
@@ -65,7 +66,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src={asset("images/project2.png")}
                   alt="Impression Platform"
                 />
               </div>
@@ -75,7 +76,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src={asset("images/project3.png")} alt="YC Directory App" />
               </div>
               <h2>PlantOS - A Plant Care Platform</h2>
               <p> - A Progressive Web Application built with React , CSS3 and TypeScript to help people care for their plants by providing them with the necessary information and tools to do so.</p>
