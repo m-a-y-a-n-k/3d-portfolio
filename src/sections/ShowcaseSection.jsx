@@ -53,12 +53,10 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Science , Technology , Engineering , Mathematics ( STEM ) and more made simple with a platform AlgoLens covering all the concepts in a visual way.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A platform built with React, ES6, CSS3 and TypeScript for a fast, user-friendly experience.
               </p>
             </div>
           </div>
@@ -68,17 +66,19 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="Impression Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Impression</h2>
+              <p> - A Progressive Web Application built with React , CSS3 and TypeScript to help people prepare for important events related to networking and job search by enabling sentiment analysis scoring on practice sessions for such scenarios.</p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>PlantOS - A Plant Care Platform</h2>
+              <p> - A Progressive Web Application built with React , CSS3 and TypeScript to help people care for their plants by providing them with the necessary information and tools to do so.</p>
             </div>
           </div>
         </div>
