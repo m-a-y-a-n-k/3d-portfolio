@@ -45,16 +45,16 @@ const AppShowcase = () => {
   }, []);
 
   return (
-    <div id="work" ref={sectionRef} className="app-showcase">
+    <div id="projects" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src={asset("images/project1.png")} alt="Ryde App Interface" />
+              <img src={asset("images/Algolens.png")} alt="AlgoLens App Interface" />
             </div>
             <div className="text-content">
               <h2>
-                Science , Technology , Engineering , Mathematics ( STEM ) and more made simple with a platform AlgoLens covering all the concepts in a visual way.
+                Science , Technology , Engineering , Mathematics ( STEM ) and more made simple with a platform "AlgoLens" covering all the concepts in a visual way.
               </h2>
               <p className="text-white-50 md:text-xl">
                 A platform built with React, ES6, CSS3 and TypeScript for a fast, user-friendly experience.
@@ -66,7 +66,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src={asset("images/project2.png")}
+                  src={asset("images/Impression.png")}
                   alt="Impression Platform"
                 />
               </div>
@@ -76,7 +76,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src={asset("images/project3.png")} alt="YC Directory App" />
+                <img src={asset("images/PlantOS.png")} alt="PlantOS App" />
               </div>
               <h2>PlantOS - A Plant Care Platform</h2>
               <p> - A Progressive Web Application built with React , CSS3 and TypeScript to help people care for their plants by providing them with the necessary information and tools to do so.</p>
