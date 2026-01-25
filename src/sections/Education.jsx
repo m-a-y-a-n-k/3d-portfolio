@@ -29,17 +29,14 @@ const Education = () => {
             });
 
             gsap.to(".timeline", {
+                scaleY: 0,
                 transformOrigin: "bottom bottom",
-                ease: "power1.inOut",
+                ease: "none",
                 scrollTrigger: {
                     trigger: ".timeline",
                     start: "top center",
-                    end: "70% center",
-                    onUpdate: (self) => {
-                        gsap.to(".timeline", {
-                            scaleY: 1 - self.progress,
-                        });
-                    },
+                    end: "bottom center",
+                    scrub: true,
                 },
             });
 
