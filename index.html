@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/images/fav.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mayank Narula &mdash;&mdash; Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/images/fav.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Mayank Narula | Frontend Engineer & 3D Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Mayank Narula, a Frontend Engineer specializing in React, Three.js, and modern web experiences. Explore projects and 3D visualizations." />
+  <meta name="keywords" content="Mayank Narula, Frontend Engineer, React, Three.js, 3D Portfolio, Web Developer" />
+
+  <!-- Performance Optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Preload critical assets -->
+  <link rel="preload" href="/models/optimized-room.glb" as="fetch" crossorigin="anonymous" />
+  <link rel="preload" href="/images/bg.png" as="image" />
+
+  <style>
+    /* Ensure root is not collapsing to improve CLS */
+    #root {
+      min-height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>

@@ -50,7 +50,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src={asset("images/Algolens.png")} alt="AlgoLens App Interface" />
+              <img src={asset("images/Algolens.png")} alt="AlgoLens App Interface" loading="lazy" />
             </div>
             <div className="text-content">
               <h2>
@@ -68,6 +68,7 @@ const AppShowcase = () => {
                 <img
                   src={asset("images/Impression.png")}
                   alt="Impression Platform"
+                  loading="lazy"
                 />
               </div>
               <h2>Impression</h2>
@@ -76,7 +77,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src={asset("images/PlantOS.png")} alt="PlantOS App" />
+                <img src={asset("images/PlantOS.png")} alt="PlantOS App" loading="lazy" />
               </div>
               <h2>PlantOS - A Plant Care Platform</h2>
               <p> - A Progressive Web Application built with React , CSS3 and TypeScript to help people care for their plants by providing them with the necessary information and tools to do so.</p>
