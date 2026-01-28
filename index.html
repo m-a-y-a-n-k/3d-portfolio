@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/3d-portfolio/images/fav.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mayank Narula &mdash;&mdash; Portfolio</title>
-    <script type="module" crossorigin src="/3d-portfolio/assets/index-B_PRyvUR.js"></script>
-    <link rel="stylesheet" crossorigin href="/3d-portfolio/assets/index-7D2Tje_g.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/3d-portfolio/images/fav.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Mayank Narula | Frontend Engineer & 3D Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Mayank Narula, a Frontend Engineer specializing in React, Three.js, and modern web experiences. Explore projects and 3D visualizations." />
+  <meta name="keywords" content="Mayank Narula, Frontend Engineer, React, Three.js, 3D Portfolio, Web Developer" />
+
+  <!-- Performance Optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Preload critical assets -->
+  <link rel="preload" href="/3d-portfolio/models/optimized-room.glb" as="fetch" crossorigin="anonymous" />
+  <link rel="preload" href="/3d-portfolio/images/bg.png" as="image" />
+
+  <style>
+    /* Ensure root is not collapsing to improve CLS */
+    #root {
+      min-height: 100vh;
+    }
+  </style>
+  <script type="module" crossorigin src="/3d-portfolio/assets/index-Bb5AvPr6.js"></script>
+  <link rel="modulepreload" crossorigin href="/3d-portfolio/assets/three-B5Ds2Z5c.js">
+  <link rel="modulepreload" crossorigin href="/3d-portfolio/assets/gsap-Bd-auMq9.js">
+  <link rel="stylesheet" crossorigin href="/3d-portfolio/assets/index-BZRPuNOk.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
 </html>
