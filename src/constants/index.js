@@ -31,7 +31,7 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 7, suffix: "+", label: "Years of Experience" },
+  { value: (new Date()).getFullYear() - 2018, suffix: "+", label: "Years of Experience" },
   { value: "1K", suffix: "+", label: "LinkedIn Followers" },
   { value: 25, suffix: "+", label: "Github Projects" },
 ];

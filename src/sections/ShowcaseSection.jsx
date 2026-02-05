@@ -48,7 +48,7 @@ const AppShowcase = () => {
     <div id="projects" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          <div ref={rydeRef} className="first-project-wrapper card-border p-5 rounded-3xl">
             <div className="image-wrapper">
               <img src={asset("images/Algolens.png")} alt="AlgoLens App Interface" loading="lazy" />
             </div>
@@ -63,8 +63,8 @@ const AppShowcase = () => {
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+            <div className="project card-border p-5 rounded-3xl" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]/10">
                 <img
                   src={asset("images/Impression.png")}
                   alt="Impression Platform"
@@ -75,8 +75,8 @@ const AppShowcase = () => {
               <p> - A Progressive Web Application built with React , CSS3 and TypeScript to help people prepare for important events related to networking and job search by enabling sentiment analysis scoring on practice sessions for such scenarios.</p>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
+            <div className="project card-border p-5 rounded-3xl mt-10" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#FFE7EB]/10">
                 <img src={asset("images/PlantOS.png")} alt="PlantOS App" loading="lazy" />
               </div>
               <h2>PlantOS - A Plant Care Platform</h2>
