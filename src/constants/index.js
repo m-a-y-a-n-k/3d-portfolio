@@ -143,20 +143,24 @@ const educationCards = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: asset("images/insta.png"),
+    name: "github",
+    imgPath: asset("images/github.png"),
+    redirectPath: "https://github.com/mnarulabuilds"
   },
   {
     name: "fb",
     imgPath: asset("images/fb.png"),
+    redirectPath: "https://www.facebook.com/Mayank96/"
   },
   {
     name: "x",
     imgPath: asset("images/x.png"),
+    redirectPath: "https://x.com/drizzlyDots"
   },
   {
     name: "linkedin",
     imgPath: asset("images/linkedin.png"),
+    redirectPath: "https://www.linkedin.com/in/mayanknarula96"
   },
 ];
 
