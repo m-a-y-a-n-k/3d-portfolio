@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [react(), tailwindcss()],
-  base: mode === "production" ? "/3d-portfolio/" : "/",
+  base: mode === "production" ? "/portfolio/" : "/",
   build: {
     rollupOptions: {
       output: {
